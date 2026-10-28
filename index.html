@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Old School Coffee | Сеть атмосферных кофеен в Таганроге</title>
+  <meta name="description" content="Old School Coffee — сеть спешелти-кофеен в историческом центре Таганрога на Петровской улице. Отборное зерно, авторские напитки и уютная атмосфера.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Навигация -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <span class="logo-vintage">OLD SCHOOL</span>
+        <span class="logo-sub">COFFEE • TAGANROG</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link">О нас</a>
+        <a href="#menu" class="nav-link">Меню</a>
+        <a href="#atmosphere" class="nav-link">Атмосфера</a>
+        <a href="#locations" class="nav-link">Кофейни</a>
+        <a href="#contacts" class="nav-link">Контакты</a>
+        <a href="https://wa.me/79508543210" target="_blank" class="nav-btn mobile-only">Написать в WhatsApp</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://wa.me/79508543210" target="_blank" class="nav-btn desktop-only">Связаться</a>
+        <button class="burger-btn" id="burgerBtn" aria-label="Меню">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Главный экран (Hero) -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span> Таганрог • Исторический центр
+      </div>
+      <h1 class="hero-title">
+        Настоящий кофе.<br>
+        <span class="gold-gradient">Олдскульная душа.</span>
+      </h1>
+      <p class="hero-desc">
+        Пространство для тех, кто ценит честный вкус спешелти-зерна, неспешные беседы и тёплую атмосферу на любимой Петровской.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#menu" class="btn btn-primary">Посмотреть меню</a>
+        <a href="#locations" class="btn btn-secondary">Найти нас на карте</a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number">3</span>
+          <span class="stat-label">Точки на Петровской</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">Арабика свежей обжарки</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">4.9★</span>
+          <span class="stat-label">Рейтинг гостей</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">🐾</span>
+          <span class="stat-label">Pet Friendly</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- О концепции -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <span class="section-tag">Философия</span>
+          <h2 class="section-title">Мы не просто варим кофе. Мы создаём паузу в суете.</h2>
+          <p class="about-p">
+            <strong>Old School Coffee</strong> родился из любви к качественному кофейному зерну и классическим традициям гостеприимства. Здесь нет спешки сетевых гигантов — каждый шот эспрессо настраивается вручную, а каждый гость чувствует себя постоянным другом.
+          </p>
+          <p class="about-p">
+            Приходите поработать с ноутбуком за чашкой фильтра, назначить встречу с друзьями или просто погреться на летней террасе с авторским рафом.
+          </p>
+
+          <div class="features-list">
+            <div class="feature-item">
+              <div class="feature-icon">☕</div>
+              <div>
+                <h4>Свежая обжарка</h4>
+                <p>Только свежий урожай спешелти-зерна от проверенных российских ростеров.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">🥐</div>
+              <div>
+                <h4>Свежая выпечка</h4>
+                <p>Хрустящие круассаны, нежные чизкейки и десерты каждое утро.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">⚡</div>
+              <div>
+                <h4>Для работы и отдыха</h4>
+                <p>Быстрый Wi-Fi, розетки у столов, спокойный плейлист и мягкий свет.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-visual">
+          <div class="coffee-card-stack">
+            <div class="card-inner">
+              <span class="card-quote">«Лучший способ начать утро в Таганроге — пройтись по тенистой Петровской со стаканчиком капучино из Old School»</span>
+              <div class="card-author">— Гости кофейни</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Меню -->
+  <section class="section menu-section" id="menu">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">Что попробовать</span>
+        <h2 class="section-title">Карта напитков и десертов</h2>
+        <p class="section-subtitle">Готовим на классическом и альтернативном молоке (овсяное, кокосовое, миндальное, банановое)</p>
+      </div>
+
+      <!-- Фильтр категорий -->
+      <div class="menu-tabs">
+        <button class="tab-btn active" data-category="classics">Классика</button>
+        <button class="tab-btn" data-category="author">Авторский кофе</button>
+        <button class="tab-btn" data-category="tea">Чай & Сезонное</button>
+        <button class="tab-btn" data-category="desserts">Десерты & Выпечка</button>
+      </div>
+
+      <!-- Список позиций -->
+      <div class="menu-grid" id="menuGrid">
+        <!-- Позиции генерируются через JS или сразу в HTML -->
+      </div>
+
+      <div class="menu-notice">
+        <span>🥛 Любой кофе можно приготовить на растительном молоке (+60 ₽) или без кофеина (Decaf).</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Атмосфера -->
+  <section class="section atmosphere" id="atmosphere">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">Old School Vibe</span>
+        <h2 class="section-title">Место встречи твоего города</h2>
+      </div>
+
+      <div class="atmosphere-cards">
+        <div class="vibe-card">
+          <div class="vibe-icon">📻</div>
+          <h3>Олдскульный вайб</h3>
+          <p>Винтажные детали, тёплое дерево, правильный винил и душевный контакт с бариста.</p>
+        </div>
+        <div class="vibe-card">
+          <div class="vibe-icon">💻</div>
+          <h3>Коворкинг-френдли</h3>
+          <p>Многие гости приходят писать код, тексты или рисовать. У нас комфортно работать часами.</p>
+        </div>
+        <div class="vibe-card">
+          <div class="vibe-icon">🐕</div>
+          <h3>Мы рады питомцам</h3>
+          <p>Не оставляйте любимцев дома — мы с радостью нальём мисочку свежей воды вашему хвостику.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Локации -->
+  <section class="section locations" id="locations">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">Где нас найти</span>
+        <h2 class="section-title">Наши кофейни в Таганроге</h2>
+        <p class="section-subtitle">Выберите ближайшую к вам точку на главной прогулочной улице города</p>
+      </div>
+
+      <div class="locations-grid">
+        <!-- Точка 1 -->
+        <div class="location-card highlight">
+          <div class="loc-badge">Флагман</div>
+          <h3 class="loc-title">ул. Петровская, 53</h3>
+          <p class="loc-desc">Самое сердце города, просторный зал, посадочные места у панорамных окон.</p>
+          <div class="loc-details">
+            <div class="detail-row">
+              <span class="icon">🕒</span>
+              <span>Пн – Вс: 08:00 — 22:00</span>
+            </div>
+            <div class="detail-row">
+              <span class="icon">📞</span>
+              <span>+7 (950) 854-32-10</span>
+            </div>
+          </div>
+          <div class="loc-actions">
+            <a href="https://yandex.ru/maps/org/100725768526" target="_blank" class="btn btn-sm btn-primary">Построить маршрут</a>
+          </div>
+        </div>
+
+        <!-- Точка 2 -->
+        <div class="location-card">
+          <h3 class="loc-title">ул. Петровская, 89</h3>
+          <p class="loc-desc">Уютный камерный кофейный уголок для быстрого кофе навынос и перекуса.</p>
+          <div class="loc-details">
+            <div class="detail-row">
+              <span class="icon">🕒</span>
+              <span>Пн – Вс: 08:30 — 21:30</span>
+            </div>
+            <div class="detail-row">
+              <span class="icon">📞</span>
+              <span>+7 (950) 854-32-10</span>
+            </div>
+          </div>
+          <div class="loc-actions">
+            <a href="https://yandex.ru/maps/org/100825558480" target="_blank" class="btn btn-sm btn-outline">Построить маршрут</a>
+          </div>
+        </div>
+
+        <!-- Точка 3 -->
+        <div class="location-card">
+          <h3 class="loc-title">ул. Петровская, 9/11</h3>
+          <p class="loc-desc">Старинная часть улицы, идеальная остановка во время неспешного променада.</p>
+          <div class="loc-details">
+            <div class="detail-row">
+              <span class="icon">🕒</span>
+              <span>Пн – Вс: 08:00 — 22:00</span>
+            </div>
+            <div class="detail-row">
+              <span class="icon">📞</span>
+              <span>+7 (950) 854-32-10</span>
+            </div>
+          </div>
+          <div class="loc-actions">
+            <a href="https://yandex.ru/maps/org/170881226404" target="_blank" class="btn btn-sm btn-outline">Построить маршрут</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA / Связь -->
+  <section class="section cta-section" id="contacts">
+    <div class="container text-center">
+      <div class="cta-box">
+        <span class="section-tag">Оставайтесь на связи</span>
+        <h2 class="cta-title">Ждём вас на чашку ароматного кофе</h2>
+        <p class="cta-text">
+          Следите за новинками, сезонными спецпредложениями и анонсами в наших соцсетях или напишите нам напрямую:
+        </p>
+
+        <div class="social-buttons">
+          <a href="https://vk.com/old_school_coffee" target="_blank" class="social-btn vk">
+            <span>ВКонтакте</span>
+            <small>vk.com/old_school_coffee</small>
+          </a>
+          <a href="https://wa.me/79508543210" target="_blank" class="social-btn wa">
+            <span>WhatsApp</span>
+            <small>+7 (950) 854-32-10</small>
+          </a>
+          <a href="tel:+79508543210" class="social-btn phone">
+            <span>Позвонить</span>
+            <small>+7 (950) 854-32-10</small>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Подвал -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <span class="logo-vintage">OLD SCHOOL COFFEE</span>
+        <p>Таганрог • Сеть кофеен свежей обжарки</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home">В начало</a>
+        <a href="#menu">Меню</a>
+        <a href="#locations">Адреса</a>
+        <a href="https://vk.com/old_school_coffee" target="_blank">ВКонтакте</a>
+      </div>
+      <div class="footer-copy">
+        <p>© 2026 Old School Coffee. Демонстрационный прототип сайта.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
